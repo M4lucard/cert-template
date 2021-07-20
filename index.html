@@ -3,14 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>Certificate Template</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <main>
     <header>
-        <section></section>
-        <section></section>
+        <section><h1>Testreport</h1></section>
+        <section><img src="media/Trisources_Logo.png" alt="Trisources_logo"></section>
     </header>
-    <div>
+    <div class="info">
         <section>
             <h2>Test moment</h2>
             <p>XX/XX/XXXX</p>
@@ -19,8 +21,9 @@
             <h2>Famhp</h2>
             <p>BE/AAxx/x-xxxxx</p>
         </section>
-        <section><h2></h2>
+        <section>
             <ul>
+                <li><h2>Trisources BV</h2></li>
                 <li>
                     <p>Egaalstraat 11</p>
                 </li>
@@ -30,21 +33,21 @@
                 <li>
                     <p>+32 2 899 67 30</p>
                 </li>
-                <li><p>info@trisources.be</p></li>
-                <li><p>info@covidtestcenter.be</p></li>
+                <li><a href="#">info@trisources.be</a></li>
+                <li><a href="#">info@covidtestcenter.be</a></li>
             </ul>
         </section>
     </div>
-    <div>
-        <h3>Test moment requested by</h3>
-        <p>/</p></div>
-    <div>
+    <div class="test_at">
+        <h3>Test moment requested at</h3>
+        <p>location</p></div>
+    <div class="test_header">
         <section><h4>Coordinator</h4>
             <p>John Doe</p></section>
         <section><h4>Test taken by</h4>
             <p>Jane Doe</p></section>
     </div>
-    <div>
+    <div class="test_info">
         <section><h4>Brand</h4>
             <p>Nadal</p></section>
         <section><h4>Type of test</h4>
@@ -62,28 +65,30 @@
                     <p>Birth date</p>
                     <p>XX-XX-XXXX</p>
                 </li>
+                <li><p>National Register Number</p>
+                    <p>xx.xx.xx-xxx.xx</p></li>
             </ul>
         </section>
         <section><h4>Result</h4>
             <p>Negative (-)</p></section>
     </div>
-    <div>
+    <div class="test_table">
         <table>
             <tr>
-                <td>Positive</td>
+                <td>Positive </td>
                 <td>0</td>
             </tr>
             <tr>
-                <td>Negative</td>
+                <td>Negative </td>
                 <td>1</td>
             </tr>
             <tr>
-                <td>Unreliable</td>
+                <td>Unreliable </td>
                 <td>0</td>
             </tr>
         </table>
     </div>
-    <div><p>This person showed (no) symptoms and had a negative test result on xx/xx/xxxx at XX:XX
+    <div class="test_result"><p>This person showed (no) symptoms and had a negative test result on xx/xx/xxxx at XX:XX
         AM/PM.</p></div>
     <footer>tests were conducted according to the requirements associated with the test.</footer>
 </main>

@@ -1,0 +1,85 @@
+main{
+    height: 297mm;
+    width: 210mm;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: border-box;
+    height: 15%;
+    width: 100%;
+}
+
+header>section{
+    width: 30%;
+}
+h1 h2 h3 h4{
+    font-family: Bahnschrift, serif;
+
+}
+h1{
+    font-size: 2rem;
+}
+header>section> img{
+    width: 60%;
+    height: 60%;
+}
+
+main>div:nth-child(1)>section{
+    height: 20%;
+    font-size: 2rem;
+}
+
+.info{
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.info > section{
+    width: calc(100%/3);
+}
+
+h2{
+  font-size: 1.5rem;
+}
+
+.test_at{
+    height: 15%;
+}
+
+.test_header{
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-right: 10%;
+}
+
+.test_info{
+    height: 15% ;
+    display: flex;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding-right: 10%;
+}
+
+.test_table{
+    height: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding-right: 10%;
+}
+
+.test_table > table {
+}
+
+.test_result
+{
+    height: 15%;
+}
