@@ -1,10 +1,11 @@
-main{
+main {
     height: 297mm;
     width: 210mm;
     margin-left: 5%;
     margin-right: 5%;
 }
-header{
+
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -13,45 +14,49 @@ header{
     width: 100%;
 }
 
-header>section{
+header > section {
     width: 30%;
 }
-h1 h2 h3 h4{
+
+h1, h2, h3, h4 {
     font-family: Bahnschrift, serif;
+    color: red;
 
 }
-h1{
+
+h1 {
     font-size: 2rem;
 }
-header>section> img{
+
+header > section > img {
     width: 60%;
     height: 60%;
 }
 
-main>div:nth-child(1)>section{
+main > div:nth-child(1) > section {
     height: 20%;
     font-size: 2rem;
 }
 
-.info{
+.info {
     height: 20%;
     display: flex;
     justify-content: space-between;
 }
 
-.info > section{
-    width: calc(100%/3);
+.info > section {
+    width: calc(100% / 3);
 }
 
-h2{
-  font-size: 1.5rem;
+h2 {
+    font-size: 1.5rem;
 }
 
-.test_at{
+.test_at {
     height: 15%;
 }
 
-.test_header{
+.test_header {
     height: 10%;
     display: flex;
     justify-content: space-between;
@@ -59,15 +64,15 @@ h2{
     padding-right: 10%;
 }
 
-.test_info{
-    height: 15% ;
+.test_info {
+    height: 15%;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
     padding-right: 10%;
 }
 
-.test_table{
+.test_table {
     height: 15%;
     display: flex;
     justify-content: flex-end;
@@ -79,7 +84,22 @@ h2{
 .test_table > table {
 }
 
-.test_result
-{
+.test_result {
     height: 15%;
+}
+
+h2, h3, h4 {
+    font-size: 1.5rem;
+}
+
+h3 {
+    font-size: 1rem;
+}
+
+.test_info > section > h4 {
+    margin-bottom: 2rem;
+
+}
+
+.test_header > section {
 }
