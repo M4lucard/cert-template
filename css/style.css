@@ -5,6 +5,10 @@ main {
     margin-right: 5%;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -39,7 +43,7 @@ main > div:nth-child(1) > section {
 }
 
 .info {
-    height: 20%;
+    height: 15%;
     display: flex;
     justify-content: space-between;
 }
@@ -47,7 +51,9 @@ main > div:nth-child(1) > section {
 .info > section {
     width: calc(100% / 3);
 }
-
+ .info h2{
+     margin-bottom: 1rem;
+ }
 h2 {
     font-size: 1.5rem;
 }
@@ -57,7 +63,7 @@ h2 {
 }
 
 .test_header {
-    height: 10%;
+    height: 8%;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -65,7 +71,7 @@ h2 {
 }
 
 .test_info {
-    height: 15%;
+    height: 20%;
     display: flex;
     justify-content: space-between;
     box-sizing: border-box;
@@ -73,7 +79,7 @@ h2 {
 }
 
 .test_table {
-    height: 15%;
+    height: 20%;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -85,7 +91,7 @@ h2 {
 }
 
 .test_result {
-    height: 15%;
+    height: 10%;
 }
 
 h2, h3, h4 {
@@ -101,5 +107,24 @@ h3 {
 
 }
 
-.test_header > section {
+footer{
+    color: grey;
+}
+
+.test_table td:first-of-type{
+    padding-right: 1.5rem;
+}
+
+.test_table td:last-of-type{
+    padding-left: 10rem;
+    border: grey solid 1px;
+    padding-right: 0.5rem;
+}
+
+.test_info li>p:first-of-type{
+    font-weight: bold;
+}
+
+.test_info li>p:last-of-type {
+margin-bottom: 0.5rem;
 }
