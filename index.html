@@ -15,11 +15,11 @@
     <div class="info">
         <section>
             <h2>Test moment</h2>
-            <p>XX/XX/XXXX</p>
+            <p id="test_date">XX/XX/XXXX</p>
         </section>
         <section>
             <h2>Famhp</h2>
-            <p>BE/AAxx/x-xxxxx</p>
+            <p id="famhp">BE/AAxx/x-xxxxx</p>
         </section>
         <section>
             <ul>
@@ -40,56 +40,57 @@
     </div>
     <div class="test_at">
         <h3>Test moment requested at</h3>
-        <p>location</p></div>
+        <p id="test_location">location</p></div>
     <div class="test_header">
         <section><h4>Coordinator</h4>
-            <p>John Doe</p></section>
+            <p id="test_coordinator">John Doe</p></section>
         <section><h4>Test taken by</h4>
-            <p>Jane Doe</p></section>
+            <p id="test_nurse">Jane Doe</p>
+        <p id="test_riziv">Riziv</p></section>
     </div>
     <div class="test_info">
         <section><h4>Brand</h4>
-            <p>Nadal</p></section>
+            <p id="test_brand">Nadal</p></section>
         <section><h4>Type of test</h4>
-            <p>Nadal...</p></section>
+            <p id="test_type">Nadal...</p></section>
         <section><h4>Person tested</h4>
             <ul>
                 <li>
                     <p>Name</p>
-                    <p>Joseph Doe</p>
+                    <p id="name">Joseph Doe</p>
                 </li>
                 <li>
                     <p>Card No:</p>
-                    <p>XXX-XXXXXXX-XX</p>
+                    <p id="card_nr">XXX-XXXXXXX-XX</p>
                 </li>
                 <li>
                     <p>Birth date</p>
-                    <p>XX-XX-XXXX</p>
+                    <p id="birth_date">XX-XX-XXXX</p>
                 </li>
                 <li><p>National Register Number</p>
-                    <p>xx.xx.xx-xxx.xx</p></li>
+                    <p id="nat_reg_nr">xx.xx.xx-xxx.xx</p></li>
             </ul>
         </section>
         <section><h4>Result</h4>
-            <p>Negative (-)</p></section>
+            <p id="test_result">Negative (-)</p></section>
     </div>
     <div class="test_table">
         <table>
             <tr>
-                <td>Positive </td>
-                <td>0</td>
+                <td>Positive</td>
+                <td id="count_positive">0</td>
             </tr>
             <tr>
-                <td>Negative </td>
-                <td>1</td>
+                <td>Negative</td>
+                <td id="count_negative">1</td>
             </tr>
             <tr>
-                <td>Unreliable </td>
-                <td>0</td>
+                <td>Unreliable</td>
+                <td id="count_unreliable">0</td>
             </tr>
         </table>
     </div>
-    <div class="test_result"><p>This person showed (no) symptoms and had a negative test result on xx/xx/xxxx at XX:XX
+    <div class="test_result"><p>This person showed <span id="symptoms">(no)</span> symptoms and had a <span id="neg_pos_test">negative</span> test result on <span id="test_result_date">xx/xx/xxxx</span> at <span id="test_time">XX:XX</span>
         AM/PM.</p></div>
     <footer>tests were conducted according to the requirements associated with the test.</footer>
 </main>
